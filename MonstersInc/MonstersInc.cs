@@ -40,7 +40,7 @@ namespace MonstersInc
             harmony.PatchAll(typeof(GrabDistancePatch));
             harmony.PatchAll(typeof(CarryWeightPatch));
             harmony.PatchAll(typeof(ClimbSpeedPatch));
-            harmony.PatchAll(typeof(HelmetLightPatch));
+            // harmony.PatchAll(typeof(HelmetLightPatch));
         }
     }
 }
